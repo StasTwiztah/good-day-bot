@@ -18,10 +18,10 @@ const start = () => {
     console.log("got", `message: ${text} in chat: ${chatId}`);
     console.log(
       `contact chat_id: ${chatId}
-${msg.contact.first_name}
-${msg.contact.last_name}
-${msg.contact.phone_number}
-${msg.contact.vcard}`
+${msg.contact?.first_name}
+${msg.contact?.last_name}
+${msg.contact?.phone_number}
+${msg.contact?.vcard}`
     );
 
     if (text === "/start") {
