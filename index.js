@@ -73,3 +73,5 @@ const start = () => {
     }
   });
 };
+
+start();
