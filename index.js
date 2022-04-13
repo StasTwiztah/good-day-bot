@@ -21,7 +21,7 @@ const start = () => {
       bot.sendMessage(
         chatId,
         `Добро пожаловать! Хорошего тебе дня!
-      Доступные команды: /help`
+Доступные команды: /help`
       );
       bot.sendPhoto(chatId, "shorturl.at/vMRW1");
 
@@ -31,12 +31,12 @@ const start = () => {
     if (text === "/help") {
       bot.sendMessage(
         chatId,
-        `/morning - Доброго утра открытка
-      /day - Хорошего дня открытка
-      /evening -  Хорошего вечера открытка
-      /night - Доброй ночи открытка
-      /week - Удачной недели открытка
-      /easter - Со светлым праздником Пасхи открытка`
+        `/morning - Доброго утра
+/day - Хорошего дня
+/evening -  Хорошего вечера
+/night - Доброй ночи
+/week - Удачной недели
+/easter - Со светлым праздником Пасхи`
       );
 
       return;
@@ -59,13 +59,13 @@ const start = () => {
       bot.sendMessage(
         chatId,
         `Упс, такой команды не существует :(
-      /morning - Доброго утра
-      /day
-      /evening
-      /night
-      /week
-      /work
-      /easter`
+/morning - Доброго утра
+/day
+/evening
+/night
+/week
+/work
+/easter`
       );
 
       return;
