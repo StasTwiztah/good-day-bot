@@ -15,6 +15,8 @@ const start = () => {
     const text = msg.text;
     const chatId = msg.chat.id;
 
+    console.log("got", `message: ${text} from ${chatId}`);
+
     if (text === "/start") {
       bot.sendMessage(
         chatId,
